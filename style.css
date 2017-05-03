@@ -41,7 +41,7 @@ a:hover {
 /* size and positions of the divs */
 
 .container {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -54,6 +54,11 @@ a:hover {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
   position: relative;
+}
+
+table {
+  width: 400px;
+  margin: 0 auto;
 }
 
 .card-white ul {
@@ -125,6 +130,31 @@ a:hover {
 }
 
 .fa {
-  color: black;
+  color: #011627;
 }
 
+.fa-plane {
+  font-size: 24px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #FDFFFC;
+}
+
+#sidebar > ul {
+   list-style: none;
+   font-size: 2em;
+}
+
+#sidebar > ul li {
+   padding-bottom: 10px;
+}
+
+#page-content {
+  margin-left: 120px;
+}
