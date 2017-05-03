@@ -40,9 +40,20 @@ a:hover {
 
 /* size and positions of the divs */
 
+
+
+
+
+@keyframes radius {
+    from {height: 0px; }
+    to { height: 100px;}
+}
+
+
 .container {
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
+
 }
 
 .card-white {
@@ -54,6 +65,7 @@ a:hover {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
   position: relative;
+
 }
 
 table {
@@ -172,6 +184,8 @@ summary {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 3px;
+        animation-name: radius;
+  animation-duration: 2s;
 }
 
 
