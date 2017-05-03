@@ -2,8 +2,8 @@
 We start with the body since it will apply on all the website */
 
 body {
-  background: #EBEBEB;
-  color: rgb(30, 30, 30);
+  background: #011627;
+  color: #222831;
   font-family: Helvetica;
   font-size: 17px;
   font-weight: lighter;
@@ -16,12 +16,17 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #DF5452;
+  color: #E71D36;
   font-size: 24px;
 }
 
 h2 {
   font-size: 20px;
+}
+
+h3 {
+  display: inline-block;
+  margin-top: 30px;
 }
 
 a {
@@ -43,7 +48,7 @@ a:hover {
 .card-white {
   /*width: 500px;*/
   margin: 10px 0 10px 0;
-  background: white;                          /* White background */
+  background: #FDFFFC;                        /* White background */
   padding: 30px;                              /* Internal space */
   border-radius: 4px;                         /* Small radius */
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -61,7 +66,7 @@ a:hover {
 #profile_pic {
   width: 150px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .image-circle {
@@ -69,7 +74,10 @@ a:hover {
 }
 
 .btn-red {
-  background: #DF5452;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #E71D36;
   padding: 10px 20px;
   color: white;
   font-weight: bold;
@@ -78,7 +86,7 @@ a:hover {
 }
 
 .btn-red:hover {
-  background: #7a1d1d;
+  background: #004A7C;
   color: white;
 }
 
@@ -101,6 +109,14 @@ a:hover {
   text-align: left;
 }
 
+.text-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px 0 0 15px;
+  margin: 0;
+  }
+
 .image-top-right-corner {
   position: absolute;
   top: 0;
@@ -108,5 +124,7 @@ a:hover {
   padding: 15px 15px 0 0;
 }
 
-
+.fa {
+  color: black;
+}
 
