@@ -2,7 +2,7 @@
 We start with the body since it will apply on all the website */
 
 body {
-  background: #011627;
+  background: linear-gradient(#011627, white);
   color: #222831;
   font-family: Helvetica;
   font-size: 17px;
@@ -148,7 +148,7 @@ table {
 
 #sidebar > ul {
    list-style: none;
-   font-size: 2em;
+   font-size: 1.5em;
 }
 
 #sidebar > ul li {
