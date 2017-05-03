@@ -1,0 +1,112 @@
+/* Fonts and colors
+We start with the body since it will apply on all the website */
+
+body {
+  background: #EBEBEB;
+  color: rgb(30, 30, 30);
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #DF5452;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #B3B3B3;
+}
+
+a:hover {
+  color: #DF5452;
+}
+
+/* size and positions of the divs */
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  /*width: 500px;*/
+  margin: 10px 0 10px 0;
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  position: relative;
+}
+
+.card-white ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+/* specific stuff */
+
+#profile_pic {
+  width: 150px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.btn-red {
+  background: #DF5452;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.btn-red:hover {
+  background: #7a1d1d;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.image-top-right-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 15px 0 0;
+}
+
+
+
