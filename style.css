@@ -1,14 +1,13 @@
 /* Fonts and colors
 We start with the body since it will apply on all the website */
 
-body {
-  background: linear-gradient(#011627, white);
+body {                   /* White background */
+  background: linear-gradient(#011627, #FDFFFC);
   color: #222831;
   font-family: Helvetica;
   font-size: 17px;
   font-weight: lighter;
   font-family: 'Open Sans', sans-serif;
-
 }
 
 h1, h2, h3 {
@@ -41,7 +40,7 @@ a:hover {
 /* size and positions of the divs */
 
 .container {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -155,10 +154,20 @@ table {
    padding-bottom: 10px;
 }
 
-#page-content {
+/*#page-content {
   margin-left: 120px;
-}
+}*/
 
 summary {
   outline:none;
 }
+
+.parallax {
+    width: 100%;
+    background: url(images/background.jpg) repeat center center fixed;
+    height: 100px;
+    background-size: 100%;
+    margin: 0;
+}
+
+
