@@ -41,9 +41,6 @@ a:hover {
 /* size and positions of the divs */
 
 
-
-
-
 @keyframes radius {
     from {height: 0px; }
     to { height: 100px;}
@@ -65,11 +62,17 @@ a:hover {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
   position: relative;
+  transition: all 0.3s ease;
 
 }
 
+.card-white:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
 table {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
