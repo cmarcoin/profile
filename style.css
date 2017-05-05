@@ -89,7 +89,7 @@ table {
 #profile_pic {
   width: 100px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.8);
 }
 
 .image-circle {
@@ -187,11 +187,11 @@ summary {
     height: 100px;
     background-size: 100%;
     margin: 0;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9); /* Subtle shadow */
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 3px;
-        animation-name: radius;
-  animation-duration: 2s;
+    animation-name: radius;
+    animation-duration: 2s;
 }
 
 .footer {
